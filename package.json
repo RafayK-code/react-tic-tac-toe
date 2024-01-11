@@ -1,0 +1,19 @@
+{
+  "name": "react-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A simple tic-tac-toe game built in React for a demonstration",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "react-scripts test --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RafayK-code/react-tic-tac-toe.git"
+  },
+  "author": "Rafay Kashif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafayK-code/react-tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/RafayK-code/react-tic-tac-toe#readme"
+}
