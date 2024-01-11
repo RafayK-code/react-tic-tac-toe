@@ -30,6 +30,6 @@ Once that is done, edit the package.json and add the following values such that 
   "eject": "react-scripts eject",
   "test": "react-scripts test --env=jsdom"
 },
+```
 
 Now you should be ready to start coding!
-```
