@@ -9,6 +9,9 @@ Next, create a folder you want the repository to be in. In the folder run the fo
 `npm init`
 
 You will then be prompted with a list of specifications. The only two that we modify are
+
 `entry point: (index.js) /src/index.js`
+
 `test command: react-scripts test--env=jsdom`
+
 The rest you can modify according to your own specification and desires.
