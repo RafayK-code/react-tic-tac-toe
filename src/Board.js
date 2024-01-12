@@ -1,11 +1,3 @@
-function Square({ value, onSquareClick }) {
-    return (
-        <button className="square" onClick={onSquareClick}>
-            {value}
-        </button>
-    );
-}
-
 function calculateWinner(squares) {
     const lines = [
         [0, 1, 2],
@@ -27,6 +19,14 @@ function calculateWinner(squares) {
     }
 
     return null;
+}
+
+function Square({ value, onSquareClick }) {
+    return (
+        <button className="square" onClick={onSquareClick}>
+            {value}
+        </button>
+    );
 }
 
 function Board({ xIsNext, squares, onPlay }) {

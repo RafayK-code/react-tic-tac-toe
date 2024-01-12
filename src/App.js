@@ -11,10 +11,18 @@ function App() {
         setPlayerTurn(playerTurn + 1);
     }
 
+    function restart() {
+        setPlayerTurn(0);
+        setSquares(new Array(9).fill(null));
+    }
+
     return (
         <div className="game">
             <div className="game-board">
                 <Board xIsNext={xIsNext} squares={squares} onPlay={handlePlay}/>
+            </div>
+            <div className="game-info">
+                <button onClick={() => restart()}>Restart game</button>
             </div>
         </div>
     )
